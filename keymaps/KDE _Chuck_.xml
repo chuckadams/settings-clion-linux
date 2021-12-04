@@ -7,6 +7,11 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -14,6 +19,11 @@
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord" />
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ForceOthersToFollowAction" />
   <action id="Forward">
