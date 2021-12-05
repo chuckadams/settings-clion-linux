@@ -2,6 +2,10 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -84,6 +88,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
+  <action id="ServiceView.GroupByContributor" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -93,5 +98,7 @@
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="SmartSelect" />
+  <action id="SurroundWith" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="UsageGrouping.UsageType" />
 </keymap>
