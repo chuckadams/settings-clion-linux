@@ -20,7 +20,18 @@
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="EditorSortLines">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord" />
@@ -56,7 +67,9 @@
     <keyboard-shortcut first-keystroke="alt slash" />
     <keyboard-shortcut first-keystroke="meta space" />
   </action>
+  <action id="NextTab" />
   <action id="OverrideMethods" />
+  <action id="PreviousTab" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="meta r" />
